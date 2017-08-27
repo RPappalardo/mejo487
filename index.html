@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Rachel Pappalardo's Project 1</title>
+      <!-- Bootstrap -->
+      <link href="assets/jquery-3.2.1.slim.js" rel="stylesheet">
+      <link href="assets/bootstrap/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/bootstrap/bootstrap-theme.min.css" rel="stylesheet">
+      <link href="assets/css/styles.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+   </head>
+   <body>
+      <!--start of navigation-->
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-xs-12 col-md-12 strip">
+               <ul class="nav">
+                  <div style ="margin-right: 115px;">
+                     <li><img src="assets/images/settings.png" alt="" /></li>
+                     <li><img src="assets/images/spacer.png" alt="" /></li>
+                     <li><img src="assets/images/help.png" alt="" /></li>
+                     <li><img src="assets/images/spacer.png" alt="" /></li>
+                     <li><img src="assets/images/MINI.png" alt="" /></li>
+                  </div>
+               </ul>
+            </div>
+         </div>
+         <div class="row icons hidden-sm hidden-xs">
+            <div class="nav-icons collaspe navbar-collapse">
+               <div class="col-md-2">
+                  <a href="#">
+                     <div class="dashboard-top"></div>
+                  </a>
+               </div>
+               <div class="col-md-2">
+                  <a href="#">
+                     <div class="customers"></div>
+                  </a>
+               </div>
+               <div class="col-md-2">
+                  <a href="#">
+                     <div class="messages"></div>
+                  </a>
+               </div>
+               <div class="col-md-2">
+                  <a href="#">
+                     <div class="promotions-green"></div>
+                  </a>
+               </div>
+               <div class="col-md-2">
+                  <a href="#">
+                     <div class="creator"></div>
+                  </a>
+               </div>
+               <div class="col-md-2">
+                  <a href="#">
+                     <div class="analytics"></div>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <!--closing row-->
+      </div>
+      <!--end of container-fluid-->
+      <!--MOBILE-->
+      <div class="row visible-xs visible-sm">
+         <div class="col-xs-12 ">
+            <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
+               <div class="container-fluid">
+                  <div class="navbar-header">
+                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
+                     <span class="sr-only">Toggle navigation</span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     <span class="icon-bar"></span>
+                     </button>
+                  </div>
+                  <div class="collapse navbar-collapse navbar-menubuilder">
+                     <ul class="nav navbar-nav navbar-left">
+                        <li role="presentation" class="active"><a href="#">Home</a></li>
+                        <li role="presentation"><a href="#">Customers</a></li>
+                        <li role="presentation"><a href="#">Messages</a></li>
+                        <li role="presentation"><a href="#">Promotions</a></li>
+                        <li role="presentation"><a href="#">Page Creator</a></li>
+                        <li role="presentation"><a href="#">Analytics</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--end of navigation-->
+      <!--start of main content-->
+      <div class="container">
+         <!--start of search bar-->
+         <div class="dashboard">
+            <div class="row">
+               <div class="col-md-8 col-lg-9">
+                  <p>Dashboard</p>
+               </div>
+               <div class="col-md-4 col-lg-3">
+                  <div class="input-group">
+                     <input type="text" class="form-control" placeholder="">
+                     <span class="input-group-btn">
+                     <button class="btn btn-default" type="button"><i class="fa fa-search fa-lg"></i></button>
+                     </span>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--end of search bar-->
+         <!--start of content box row-->
+         <div class="gradient">
+            <!--<div class="within-gradient">-->
+            <div class="row">
+               <div class="col-md-12 within-gradient">
+                  <!--start of announcements bar-->
+                  <div class="row">
+                     <div class="col-md-2 border-top">
+                        <p class="announcements">Announcements</p>
+                     </div>
+                     <div class="col-md-9 border-top">
+                        <p class="text">
+                           Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus sagittis lacus.
+                        </p>
+                     </div>
+                     <div class="col-md-1 border-top hidden-sm hidden-xs">
+                        <div class="arrow">
+                           <a href="#"><i class="fa fa-chevron-left"></i></a>
+                           <a href="#"><i class="fa fa-chevron-right"></i></a>
+                        </div>
+                     </div>
+                     <div class="col-sm-12 col-xs-12 hidden-lg hidden-m">
+                        <div class="arrow" id="small-arrows">
+                           <a href="#"><i class="fa fa-chevron-left"></i></a>
+                           <a href="#"><i class="fa fa-chevron-right"></i></a>
+                        </div>
+                     </div>
+                  </div>
+                  <!--end of announcements bar-->
+                  <!--start of tasks and analytics-->
+                  <div class="row">
+                     <!--start of tasks column-->
+                     <div class="col-md-4">
+                        <!--start of task box-->
+                        <div class="row">
+                           <div class="col-md-12 border-bottom">
+                              <div class="setting-bar">
+                                 <h1>Tasks</h1>
+                                 <a href="#"><img src="images/settings-2.png" alt="" /></a>
+                              </div>
+                              <div class="row border-bottom">
+                                 <!--use this as example-->
+                                 <a href="#" id="task-hover">
+                                    <div class="col-md-2 numeral hidden-sm hidden-xs">
+                                       <div id="label">
+                                          <span class="digit">
+                                             <p>1</p>
+                                          </span>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-7 hidden-sm hidden-xs">
+                                       <p class="new-header">Welcome Contacts</p>
+                                    </div>
+                                    <div class="col-md-3 hidden-sm hidden-xs">
+                                       <span class="count-holder">
+                                          <img src="#" class="tasks-person-icon-blue" alt="" />
+                                          <div><p class="new-title">32</p></div>
+                                       </span>
+                                    </div>
+                                 </a>
+                              </div>
+                              <div class="row border-bottom">
+                                 <a href="#">
+                                    <div class="col-md-2 numeral hidden-sm hidden-xs">
+                                       <div id="label">
+                                          <span class="digit">
+                                          <p>2</p>
+                                          </span>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-7 hidden-sm hidden-xs">
+                                       <p class="new-header">Provide Responses</p>
+                                    </div>
+                                    <div class="col-md-3 hidden-sm hidden-xs">
+                                       <span class="count-holder">
+                                          <img src ="#" alt="" class="tasks-person-icon-blue"/>
+                                        <div>  <p class="new-title">36</p></div>
+                                       </span>
+                                    </div>
+                                 </a>
+                              </div>
+                              <div class="row border-bottom">
+                                 <a href="#">
+                                    <div class="col-md-2 numeral hidden-sm hidden-xs">
+                                       <div id="label">
+                                          <span class="digit">
+                                          <p>3</p>
+                                          </span>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-7 hidden-sm hidden-xs">
+                                       <p class="new-header">Review Activity</p>
+                                    </div>
+                                    <div class="col-md-3 hidden-sm hidden-xs">
+                                       <span class="count-holder">
+                                          <img src ="#" alt="" class="tasks-person-icon-blue"/>
+                                          <p class="new-title">36</p>
+                                       </span>
+                                    </div>
+                                 </a>
+                              </div>
+                              <div class="row border-bottom">
+                                 <a href="#">
+                                    <div class="col-md-2 numeral hidden-sm hidden-xs">
+                                       <div id="label">
+                                          <span class="digit">
+                                          <p>4</p>
+                                          </span>
+                                       </div>
+                                    </div>
+                                    <div class="col-md-7 hidden-sm hidden-xs">
+                                       <p class="new-header">Reach Out</p>
+                                    </div>
+                                    <div class="col-md-3 hidden-sm hidden-xs">
+                                       <span class="count-holder">
+                                          <img src = "#" alt="" class="tasks-person-icon-blue"/>
+                                          <p class="new-title">3</p>
+                                       </span>
+                                    </div>
+                                 </a>
+                              </div>
+                           </div>
+                           <!--MOBILE-->
+                           <div class="row border-bottom hidden-md hidden-lg">
+                              <a href="#">
+                                 <div class="col-sm-12 col-xs-12 numeral hidden-md hidden-lg" id="mobile-task">
+                                    <div id="label">
+                                       <span class="digit">
+                                          <p>1</p>
+                                       </span>
+                                    </div>
+                                    <p class="new-header">Welcome Contacts</p>
+                                    <span class="count-holder">
+                                       <img src = "#" alt="" class="tasks-person-icon-blue"/>
+                                       <p class="new-title">36</p>
+                                    </span>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="row border-bottom hidden-md hidden-lg">
+                              <a href="#">
+                                 <div class="col-sm-12 col-xs-12 numeral hidden-md hidden-lg" id="mobile-task">
+                                    <div id="label">
+                                       <span class="digit">
+                                          <p>2</p>
+                                       </span>
+                                    </div>
+                                    <p class="new-header">Provide Responses</p>
+                                    <span class="count-holder">
+                                       <img src="#" alt ="" class="tasks-person-icon-blue"/>
+                                       <p class="new-title">36</p>
+                                    </span>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="row border-bottom hidden-md hidden-lg">
+                              <a href="#">
+                                 <div class="col-sm-12 col-xs-12 numeral hidden-md hidden-lg" id="mobile-task">
+                                    <div id="label">
+                                       <span class="digit">
+                                         <p>3</p>
+                                       </span>
+                                    </div>
+                                    <p class="new-header">Review Activity</p>
+                                    <span class="count-holder" id="mobile-count-2">
+                                       <img src ="#" alt="" class="tasks-person-icon-blue"/>
+                                       <p class="new-title">36</p>
+                                    </span>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="row border-bottom hidden-md hidden-lg">
+                              <a href="#">
+                                 <div class="col-sm-12 col-xs-12 numeral hidden-md hidden-lg" id="mobile-task">
+                                    <div id="label">
+                                       <span class="digit">
+                                          <p>4</p>
+                                       </span>
+                                    </div>
+                                    <p class="new-header">Reach Out</p>
+                                    <span class="count-holder" id="mobile-count-3">
+                                       <img src="#" alt="" class="tasks-person-icon-blue"/>
+                                       <p class="new-title">3</p>
+                                    </span>
+                                 </div>
+                              </a>
+                           </div>
+                        </div>
+                        <!--end of tasks row-->
+                        <!--start of recommendations box-->
+                        <div class="row">
+                           <div class="col-md-12 border-bottom">
+                              <h1>Recommendations</h1>
+                              <ul class="tasks">
+                                 <li class="sub-title">Article</li>
+                                 <li class="title"><img src="assets/images/article.png" alt ="" /> 7 Steps to getting more Fans </li>
+                                 <li class="sub-title">Article</li>
+                                 <li class="title"><img src="assets/images/article.png" alt = " "/> Increase traction with more interactions</li>
+                                 <li class="sub-title">Checklist</li>
+                                 <li class="title"><img src="assets/images/check.png" alt= "" />Creating a Promotion</li>
+                                 <li class="sub-title">Tip</li>
+                                 <li class="title" id="last"><img src="assets/images/bulb.png" alt =""/>Share More</li>
+                              </ul>
+                           </div>
+                        </div>
+                     </div>
+                     <!--end of tasks column-->
+                     <!--start of analytics column-->
+                     <div class="col-md-8">
+                        <!--start of analytics box within column-->
+                        <div class="row border-bottom">
+                           <div class="col-md-9">
+                              <h1>Analytics</h1>
+                              <div class="button-line"/>
+                                 <p class="sub-head">Activity</p>
+                                 <div class="btn-group">
+                                    <button type="button" class="btn">6/28/11 - 07/21/11</button>
+                                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    <span><img src="assets/images/arrow-down.png" alt =""/></span>
+                                    <span class="sr-only">Toggle Dropdown</span>
+                                    </button>
+                                    <ul class="dropdown-menu">
+                                       <li><a href="#">10/10/1995</a></li>
+                                       <li><a href="#">5/4/2003</a></li>
+                                       <li><a href="#">8/8/1997</a></li>
+                                       <li role="separator" class="divider"></li>
+                                       <li><a href="#">More Dates</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                              <!--Analytics chart-->
+                              <div class="analytics-chart">
+                                 <img src="assets/images/analytics-chart.png" alt="Graph " id="bar-graph"/>
+                              </div>
+                           </div>
+                           <div class="col-md-3">
+                              <!--channels graph-->
+                              <div class="pie-charts">
+                                 <ul class="channels">
+                                    <li class="text">Channels</li>
+                                    <li class="image"><img src="assets/images/pie-chart-1.png" alt ="" /></li>
+                                    <li class="text">References</li>
+                                    <li class="image"><img src="assets/images/pie-chart-2.png" alt = "" /></li>
+                                 </ul>
+                              </div>
+                           </div>
+                           <div class"row">
+                              <div class="col-md-12">
+                                 <form>
+                                    <ul class="social">
+                                       <li>
+                                          <input type="checkbox" name="Facebook" value="Facebook" id="fb">
+                                          <label for="fb" id="navy">
+                                             <span></span>
+                                             <p>Facebook</p>
+                                          </label>
+                                       </li>
+                                       <li>
+                                          <input type="checkbox" name="Twitter" value="Twitter" id="tweet">
+                                          <label for="tweet" id="periwinkle">
+                                             <span></span>
+                                             <p>Twitter</p>
+                                          </label>
+                                       </li>
+                                       <li>
+                                          <input type="checkbox" name="Foursquare" value="Foursquare" id="square">
+                                          <label for="sqaure" id="purple">
+                                             <span></span>
+                                             <p>Foursqaure</p>
+                                          </label>
+                                       </li>
+                                       <li>
+                                          <input type="checkbox" name="Google+" value="Google+" id="pluse">
+                                          <label for="plus" id="green">
+                                             <span></span>
+                                             <p>Google+</p>
+                                          </label>
+                                       </li>
+                                    </ul>
+                                 </form>
+                              </div>
+                           </div>
+                        </div>
+                        <div class="row border-bottom">
+                           <div class=" col-xs-12 col-md-6">
+                              <!--75 contacts graphic-->
+                              <div class="binder">
+                                 <!--div that holds everything-->
+                                 <div class="ribbon-left"></div>
+                                 <div class="visible">
+                                    <!--visible white box-->
+                                    <div class="avatar-green"></div>
+                                    <div class="box-padding">
+                                       <div class="banner">
+                                          <p class="banner-big">75 Contacts</p>
+                                          <p class="banner-small">4 influences</p>
+                                       </div>
+                                    </div>
+                                    <div class="chart-1"></div>
+                                 </div>
+                                 <!-- closing visible white box div-->
+                                 <div class="ribbon-right"></div>
+                              </div>
+                              <!--closing div that holds everything tag-->
+                           </div>
+                           <div class="col-xs-12 col-md-6" id="padding-2">
+                              <div class="binder">
+                                 <!--div that holds everything-->
+                                 <div class="ribbon-left" id="orange-dude-1"></div>
+                                 <div class="visible">
+                                    <!--visible white box-->
+                                    <div class="avatar-orange"></div>
+                                    <div class="box-padding">
+                                       <div class="banner">
+                                          <p class="banner-big">17 Costumers</p>
+                                          <p class="banner-small">0 influences</p>
+                                       </div>
+                                    </div>
+                                    <div class="chart-2"></div>
+                                 </div>
+                                 <!-- closing visible white box div-->
+                                 <div class="ribbon-right" id="orange-dude"></div>
+                              </div>
+                              <!--closing div that holds everything tag-->
+                           </div>
+                        </div>
+                        <div class="row border-bottom">
+                           <div id="know">
+                              <div class="col-md-1 book-end">
+                                 <!--arrow buttons go here-->
+                                 <div id="left">
+                                    <img src="images/circle-back.png" class="class-1" alt =""/>
+                                    <a href="#" class="slider"><i class="fa fa-chevron-left"></i></a>
+                                 </div>
+                              </div>
+                              <div class="col-md-10">
+                                 <!--text-column-->
+                                 <p>DID YOU KNOW?<br>
+                                    Maecenas sed diam eget risus varius blandit sit amet non magna.<br>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta sem malesuada magna mollis euismod.
+                                 </p>
+                              </div>
+                              <!--text column-->
+                              <div class="col-md-1 book-end">
+                                 <!--arrow buttons go here-->
+                                 <div id="right">
+                                    <a href="#" class="slider"><i class="fa fa-chevron-right"></i></a>
+                                    <img src="images/circle-next.png" class="class-2" alt="" />
+                                 </div>
+                              </div>
+                           </div>
+                           <!--close of div#know-->
+                        </div>
+                        <!--close of row-->
+                     </div>
+                     <!--end of analytics box-->
+                  </div>
+                  <!--end of task box-->
+               </div>
+            </div>
+            <!--end of tasks and analytics-->
+            <!--start of ads-->
+            <div class="row" id="ads">
+               <div class="col-xs-12 col-md-4">
+                  <div class="ad"/>
+                     <img src="assets/images/ad1.png" alt ="" id="ad1"/>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-md-4">
+                  <div class="ad">
+                     <img src="assets/images/ad2.png" alt = "" id="ad2"/>
+                  </div>
+               </div>
+               <div class="col-xs-12 col-md-4">
+                  <div class="ad">
+                     <img src="assets/images/ad3.png" alt ="" id="ad3"/>
+                  </div>
+               </div>
+            </div>
+            <!--end of ads-->
+         </div>
+         <!--gradient-->
+      </div>
+      <!--end of content box row-->
+      <!--</div>
+         </div> gradient background div
+         </div> end of main content-->
+      <!--start of footer-->
+      <div class="container-fluid">
+         <div class="row grey">
+            <div class="hidden-sm hidden-xs col-md-12">
+               <ul class="footer">
+                  <li><a href="#">Tutorials</a></li>
+                  <li><img src="assets/images/line-1.png" alt ="" /></li>
+                  <li><a href="#">Support</a></li>
+                  <li><img src="assets/images/line-2.png" alt ="" /></li>
+                  <li><a href="#">Blog</a></li>
+                  <li><img src="assets/images/line-3.png" alt ="" /></li>
+                  <li><a href="#">Ariel Winter</a> likes your <a href="#">Win A Cooper Sweepstakes</a> Promotion</li>
+                  <li id="triangle"><a class="button" href="#">
+                     <img src="assets/images/up-arrow.png" alt=""/></a>
+                  </li>
+                  <li><img src="assets/images/line-3.png" alt ="" /></li>
+                  <li><img src="assets/images/logout-pic.png" alt ="" /></li>
+                  <li><a href="#">Logout</a></li>
+                  <li><img src="assets/images/line-3.png" alt ="" /></li>
+                  <li><a href="#"><img class="facebook-dead" alt ="" /></a></li>
+                  <li><a href="#"><img class="twitter-dead" alt ="" /></a></li>
+                  <li><a href="#"><img class="foursquare-dead" alt ="" /></a></li>
+                  <li><a href="#"><img class="youtube-dead" alt ="" /></a></li>
+               </ul>
+            </div>
+            <!--end of large footer-->
+            <div class="col-sm-12 col-xs-12 hidden-lg hidden-m"/>
+               <ul class="footer">
+                  <li><a href="#">Tutorials</a></li>
+                  <li><img src="assets/images/line-1.png" alt="" /></li>
+                  <li><a href="#">Support</a></li>
+                  <li><img src="assets/images/line-2.png" alt="" /></li>
+                  <li><a href="#">Blog</a></li>
+               </ul>
+            </div>
+            <div class="col-sm-12 col-xs-12 hidden-lg hidden-m">
+               <ul class="footer">
+                  <li>
+                     <a href="#">Ariel Winter</a> likes your <a href="#">Win A Cooper Sweepstakes</a> Promotion
+                  </li>
+               </ul>
+            </div>
+            <div class="col-sm-12 col-xs-12 hidden-lg hidden-m">
+               <ul class="footer">
+                  <li><a href="#"><img class="facebook-dead" alt="" /></a></li>
+                  <li><a href="#"><img class="twitter-dead" alt="" /></a></li>
+                  <li><a href="#"><img class="foursquare-dead" alt="" /></a></li>
+                  <li><a href="#"><img class="youtube-dead" alt="" /></a></li>
+                  <li><img src="assets/images/logout-pic.png" alt="" /></li>
+                  <li><a href="#">Logout</a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <!--end of footer-->
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/bootstrap.min.js"></script>
+   </body>
+</html>
