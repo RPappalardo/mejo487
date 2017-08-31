@@ -823,3 +823,7 @@ a:hover .tasks-person-icon-blue {
 input[type="checkbox"]:checked + label{
     background:url('../img/check.png') no-repeat;
 }
+
+#mini{
+  color: #FFF;
+}
