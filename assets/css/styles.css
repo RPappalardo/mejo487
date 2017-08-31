@@ -17,7 +17,7 @@ ul.nav li {
 }
 .icons {
     background-color: #194b74;
-    background-image: url("img/background.png");
+    background-image: url("../img/background.png");
     background-position: center;
 }
 .nav-icons {
@@ -326,11 +326,11 @@ input[type="checkbox"]+ label span {
     height: 23px;
     margin: -1px 4px 0 20px;
     vertical-align: middle;
-    background: url("img/orange-check-holder.png") left top no-repeat;
+    background: url("../img/orange-check-holder.png") left top no-repeat;
     cursor: pointer;
 }
 input[type="checkbox"]:checked + label span {
-    background: url("img/orange-check-active.png")top no-repeat;
+    background: url("../img/orange-check-active.png")top no-repeat;
 }
 form ul.social li label p {
     border-radius: 5px;
@@ -439,7 +439,6 @@ div#know a.slider {
     width: 90px;
 }
 div#know div#left a.slider i {
-    /*background-image: url("img/circle-back.png");*/
 
     display: block;
     background-position: center;
