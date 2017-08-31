@@ -263,23 +263,23 @@ ul.tasks {
 #last {
     margin-bottom: 106px;
 }
-ul li#title {
+ul li.title {
     margin-top: -13px;
     font-size: .9em;
     color: #818181;
     border-bottom: 1px dotted #818181;
 }
-ul li#title img {
+ul li.title img {
     margin-top: 5px;
 }
-sub-title {
+.sub-title {
     margin-bottom: 0px;
     font-size: .6em;
     color: #999999;
     margin-left: 40px;
     margin-top: 40px;
 }
-ul li#title img {
+ul li.title img {
     margin-right: 10px;
 }
 ol.tasks li {
@@ -487,17 +487,17 @@ div.ad {
     width: 275px;
     position: relative;
 }
-#ad1 {
+img#ad1 {
     position: absolute;
     margin-top: -6px;
     margin-left: -5px;
 }
-#ad2 {
+img#ad2 {
     position: relative;
     margin-top: -15px;
     margin-left: -5px;
 }
-#ad3 {
+img#ad3 {
     position: relative;
     margin-top: -6px;
     margin-left: -5px;
