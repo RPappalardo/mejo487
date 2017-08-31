@@ -818,3 +818,8 @@ a:hover .tasks-person-icon-blue {
     position: absolute;
     margin: 10px;
 }
+
+
+input[type="checkbox"]:checked + label{
+    background:url('../img/check.png') no-repeat;
+}
