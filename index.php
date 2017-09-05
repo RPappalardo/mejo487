@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Zardas Fairfox</title>
+    <title>ZardasFairfox</title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <!-- Mobile Responsive -->
@@ -58,7 +58,7 @@
     </nav>
 
     <main>
-        <h1>HTML Template</h1>
+        <h1>Rachel's Site</h1>
         <a href="/project1">
             <p>Project 1</p>
         </a>
@@ -68,7 +68,7 @@
     </main>
 
     <footer>
-        <p>Copyright &copy; <?= date("Y") ?> Dylan Tackoor. All Rights Reserved.</p>
+        <p>Copyright &copy; <?= date("Y") ?> Rachel Pappalardo. All Rights Reserved.</p>
     </footer>
 
     <!-- Try CDN and if fails, load local copy -->
