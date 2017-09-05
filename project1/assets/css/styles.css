@@ -29,6 +29,9 @@ ul.nav li {
     width: 90px;
     height: 90px;
 }
+.customers:hover {
+
+}
 .dashboard {
     background-color: #33cc66;
     border: 10px solid #33cc66;
