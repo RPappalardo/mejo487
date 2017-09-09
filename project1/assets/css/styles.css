@@ -5,6 +5,7 @@
 p {
     margin: 0px;
     font-family: 'Myriad Pro Regular', sans-serif;
+    color: #000;
 }
 button {
     border: none;
@@ -175,12 +176,12 @@ a:link .wowzer {
 a:hover .wowzer {
     color: #cccccc;
 }
-#mobile-task div#label,
+#mobile-task div#holder,
 #mobile-task p.new-header,
 #mobile-task span.count-holder {
     display: inline-block;
 }
-#mobile-task div#label {
+#mobile-task div#holder {
     margin-left: 5px;
 }
 #mobile-task p.new-header {
@@ -196,7 +197,7 @@ a:hover .wowzer {
     margin-left: 100px;
 }
 
-div.numeral #label {
+div.numeral #holder {
     display: inline-block;
 }
 div.numeral a:hover {
@@ -232,7 +233,7 @@ div.numeral span#count-4 {
     padding: 2px;
     margin-left: 150px;
 }
-div#label span.digit p {
+div#holder span.digit p {
     color: white;
     background-color: #32cc66;
     border-radius: 50%;
@@ -243,7 +244,7 @@ div#label span.digit p {
     padding-top: 2px;
     display: inline-block;
 }
-div#label span.digit a:hover {
+div#holder span.digit a:hover {
     color: #2498f3;
 }
 ul.tasks {
@@ -504,6 +505,7 @@ img#ad3 {
 ul.footer {
     margin-left: 90px;
     margin-right: 20px;
+    margin-bottom: 0px;
 }
 ul.footer li {
     display: inline;

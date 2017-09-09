@@ -3,15 +3,10 @@ h1 {
   font-size: 2em;
 }
 
-p {
-  color: #000;
-}
-
 a {
   color: #2498f4;
   text-decoration: none;
 }
-
 
 a:hover {
   text-decoration: none;
@@ -85,7 +80,7 @@ a:hover {
 .analytics-shadow {
   margin: 25px 0 0 0;
 }
-/*------ICON HOVER-----*/
+/*Hover*/
 .dashboard:hover {
     background: url(../img/menu_hover.png) no-repeat;
     background-position: -9px -6px ;
@@ -264,33 +259,9 @@ div.numeral{
 #grey1:hover{
   opacity: .5;
 }
-#grey2:hover{
-  opacity: .5;
-}
-#grey3:hover{
-  opacity: .5;
-}
-#grey4:hover{
-  opacity: .5;
-}
-#grey5:hover{
-  opacity: .5;
-}
-#grey6:hover{
-  opacity: .5;
-}
 #grey7:hover{
   opacity: .5;
 }
-#grey8:hover{
-  opacity: .5;
-}
-
-
-
-
-
-
 
 
 #mobile-task1 div#label,
@@ -313,9 +284,6 @@ div.numeral{
 #mobile-task1 span#mobile-count-3 {
     margin-left: 100px;
 }
-
-
-
 
 #mobile-task2 div#label,
 #mobile-task2 p.new-header,
