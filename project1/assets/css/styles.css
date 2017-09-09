@@ -56,10 +56,6 @@ button.btn-default {
     padding: 3%;
 }
 .within-gradient {
-    /*margin-left: 3%;
-  margin-right: 3%;
-  margin-top: 3%;*/
-
     background-color: white;
 }
 .border-top {
@@ -143,20 +139,15 @@ div.numeral a:link {
     text-decoration: none;
     display: inline-block;
 }
-/*Trying new CSS*/
-
 a#task-hover a:hover {
     color: #cccccc;
 }
 a#task-hover a:link {
     color: #2498f3;
 }
-p.new-title {
-    /*margin-top: 10px;
-  margin-left: -25px;*/
-}
+
 span.count-holder img.tasks-person-icon-blue,
-span.count-holder p.new-title {
+span.count-holder p.wowzer {
     display: inline-block;
 }
 span.count-holder {
@@ -177,11 +168,11 @@ a:link .new-header {
 a:hover .new-header {
     color: #cccccc;
 }
-a:link .new-title {
+a:link .wowzer {
     color: #2498f3;
     font-family: "Myriad Pro Regular", sans-serif;
 }
-a:hover .new-title {
+a:hover .wowzer {
     color: #cccccc;
 }
 #mobile-task div#label,
@@ -204,7 +195,6 @@ a:hover .new-title {
 #mobile-task span#mobile-count-3 {
     margin-left: 100px;
 }
-/*end of trying new Css*/
 
 div.numeral #label {
     display: inline-block;
@@ -333,10 +323,6 @@ input[type="checkbox"]+ label span {
 input[type="checkbox"]:checked + label span {
     background: url("../img/orange-check-active.png")top no-repeat;
 }
-
-/*input[type="checkbox"]:checked + label{
-    background:url('../img/check.png') no-repeat;
-}   */
 
 form ul.social li label p {
     border-radius: 5px;
@@ -487,8 +473,6 @@ div.book-end {
 div.ad {
     background-color: #ffffff;
     border-radius: 10px;
-    /*max-width: 250px;*/
-
     height: 150px;
     width: 275px;
     position: relative;
@@ -531,6 +515,7 @@ ul.footer li a {
 ul.footer li#triangle {
     margin-left: 60px;
 }
+
 /* sprites 1 */
 .creator-blue,
 .promotions-green,
@@ -773,13 +758,11 @@ a:hover .tasks-person-icon-blue {
     cursor: pointer;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-/* Dropdown Content (Hidden by Default) */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -789,7 +772,6 @@ a:hover .tasks-person-icon-blue {
     z-index: 1;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -797,15 +779,12 @@ a:hover .tasks-person-icon-blue {
     display: block;
 }
 
-/* Change color of dropdown links on hover */
 .dropdown-content a:hover {background-color: #f1f1f1}
 
-/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
 }
 
-/* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }

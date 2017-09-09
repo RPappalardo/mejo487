@@ -17,12 +17,10 @@ a:hover {
   text-decoration: none;
 }
 
-/*-------COL-MD-4----*/
 .col-md-4 {
   max-width: 400px;
 }
 
-/*----------HEADER----------*/
 .header {
   background-color: #208ee5;
   background: url(../img/header_bar.png);
@@ -53,7 +51,6 @@ a:hover {
 
 }
 
-/*--------MENU------*/
 .menu {
     background: url(../img/background.png) no-repeat;
     background-size: 100% 100%;
@@ -258,4 +255,106 @@ a:hover {
 	background-position: -28px -23px ;
 	width: 40px;
 	height: 10px;
+}
+
+div.numeral{
+    color: #2498f4;
+   opacity: 1;
+}
+#grey1:hover{
+  opacity: .5;
+}
+#grey2:hover{
+  opacity: .5;
+}
+#grey3:hover{
+  opacity: .5;
+}
+#grey4:hover{
+  opacity: .5;
+}
+#grey5:hover{
+  opacity: .5;
+}
+#grey6:hover{
+  opacity: .5;
+}
+#grey7:hover{
+  opacity: .5;
+}
+#grey8:hover{
+  opacity: .5;
+}
+
+
+
+
+
+
+
+
+#mobile-task1 div#label,
+#mobile-task1 p.new-header,
+#mobile-task1 span.count-holder {
+    display: inline-block;
+}
+#mobile-task1 div#label {
+    margin-left: 5px;
+}
+#mobile-task1 p.new-header {
+    margin-left: 20px;
+}
+#mobile-task1 span.count-holder {
+    margin-left: 50px;
+}
+#mobile-task1 span#mobile-count-2 {
+    margin-left: 75px;
+}
+#mobile-task1 span#mobile-count-3 {
+    margin-left: 100px;
+}
+
+
+
+
+#mobile-task2 div#label,
+#mobile-task2 p.new-header,
+#mobile-task2 span.count-holder {
+    display: inline-block;
+}
+#mobile-task2 div#label {
+    margin-left: 5px;
+}
+#mobile-task2 p.new-header {
+    margin-left: 20px;
+}
+#mobile-task2 span.count-holder {
+    margin-left: 50px;
+}
+#mobile-task2 span#mobile-count-2 {
+    margin-left: 75px;
+}
+#mobile-task2 span#mobile-count-3 {
+    margin-left: 100px;
+}
+
+#mobile-task3 div#label,
+#mobile-task3 p.new-header,
+#mobile-task3 span.count-holder {
+    display: inline-block;
+}
+#mobile-task3 div#label {
+    margin-left: 5px;
+}
+#mobile-task3 p.new-header {
+    margin-left: 20px;
+}
+#mobile-task3 span.count-holder {
+    margin-left: 50px;
+}
+#mobile-task3 span#mobile-count-2 {
+    margin-left: 75px;
+}
+#mobile-task3 span#mobile-count-3 {
+    margin-left: 100px;
 }
