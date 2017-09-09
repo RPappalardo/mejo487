@@ -15,6 +15,7 @@
     <link rel="apple-touch-icon" href="img/icons/apple-touch-icon.png">
     <!-- Safari 9 Pinned tabs in El Capitan (Slightly broken svg!) -->
     <link rel="mask-icon" href="img/icons/safariPinnedTab.svg" color="#009688">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="Summary" />

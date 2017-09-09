@@ -11,104 +11,98 @@
       <link href="/project1/assets/css/lib/bootstrap/bootstrap-theme.min.css" rel="stylesheet">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
       <link href="/project1/assets/css/styles.css" rel="stylesheet">
+      <link href="/project1/assets/css/styles2.css" rel="stylesheet">
+
    </head>
    <body>
       <!--start of navigation-->
-      <div class="container-fluid">
-         <div class="row">
-            <div class="col-xs-12 col-md-12 strip">
-               <ul class="nav">
-                  <div style ="margin-right: 115px;">
-                     <li><img src="/project1/assets/img/settings.png" alt="" /></li>
-                     <li><img src="/project1/assets/img/spacer.png" alt="" /></li>
-                     <li><img src="/project1/assets/img/help.png" alt="" /></li>
-                     <li><img src="/project1/assets/img/spacer.png" alt="" /></li>
-                     <!--<li><a href ="#" id="mini" >MINI of Raleigh</a></li> -->
-                     <li><img src="/project1/assets/img/MINI.png" alt="" /></li>
-                  </div>
-               </ul>
-            </div>
-         </div>
-         <div class="row icons hidden-sm hidden-xs">
-            <div class="nav-icons collaspe navbar-collapse">
-               <div class="col-md-2">
-                  <a href="#">
-                     <div class="dashboard-top"></div>
-                  </a>
-               </div>
-               <div class="col-md-2">
-                  <a href="#">
-                     <div class="customers"></div>
-                  </a>
-               </div>
-               <div class="col-md-2">
-                  <a href="#">
-                     <div class="messages"></div>
-                  </a>
-               </div>
-               <div class="col-md-2">
-                  <a href="#">
-                     <div class="promotions-green"></div>
-                  </a>
-               </div>
-               <div class="col-md-2">
-                  <a href="#">
-                     <div class="creator"></div>
-                  </a>
-               </div>
-               <div class="col-md-2">
-                  <a href="#">
-                     <div class="analytics"></div>
-                  </a>
-               </div>
-            </div>
-         </div>
-         <!--closing row-->
-      </div>
-      <!--end of container-fluid-->
-      <!--MOBILE-->
-      <div class="row visible-xs visible-sm">
-         <div class="col-xs-12 ">
-            <div id="custom-bootstrap-menu" class="navbar navbar-default " role="navigation">
-               <div class="container-fluid">
-                  <div class="navbar-header">
-                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder">
-                     <span class="sr-only">Toggle navigation</span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                     </button>
-                  </div>
-                  <div class="collapse navbar-collapse navbar-menubuilder">
-                     <ul class="nav navbar-nav navbar-left">
-                        <li role="presentation" class="active"><a href="#">Home</a></li>
-                        <li role="presentation"><a href="#">Customers</a></li>
-                        <li role="presentation"><a href="#">Messages</a></li>
-                        <li role="presentation"><a href="#">Promotions</a></li>
-                        <li role="presentation"><a href="#">Page Creator</a></li>
-                        <li role="presentation"><a href="#">Analytics</a></li>
+            <div class="container-fluid">
+               <div class="row">
+                  <div class="col-xs-12 col-md-12 strip">
+                     <ul class="nav">
+                        <div style ="margin-right: 115px;">
+                           <li><a href="#"><img src="/project1/assets/img/settings.png" alt="" /></a></li>
+                           <li><img src="/project1/assets/img/spacer.png" alt="" /></li>
+                           <li><a href="#"><img src="/project1/assets/img/help.png" alt="" /></a></li>
+                           <li><img src="/project1/assets/img/spacer.png" alt="" /></li>
+                           <!--<li><a href ="#" id="mini" >MINI of Raleigh</a></li> -->
+                           <li><a href="#"><img src="/project1/assets/img/MINI.png" href="#" alt="" /></a></li>
+                        </div>
                      </ul>
                   </div>
                </div>
-            </div>
-         </div>
+
+  <!--MENU------->
+    <div class="row menu hidden-xs hidden-sm">
+      <div class="col-md-3"></div>
+        <div class="col-md-1">
+          <div class="dashboard-shadow active">
+          <a href="#"><div class="dashboard"></div></a>
+            <div class="icon_shadow shadow1"></div>
+            <div class="trianglepic"></div>
+          </div>
+        </div>
+
+        <div class="col-md-1">
+          <div class="customers-shadow">
+          <a href="#"><div class="customers"></div></a>
+          </div>
+          <div class="icon_shadow shadow2"></div>
+        </div>
+
+        <div class="col-md-1">
+          <div class="messages-shadow">
+          <a href="#"><div class="messages"></div></a>
+          <div class="icon_shadow shadow3"></div>
+          </div>
+        </div>
+
+        <div class="col-md-1">
+          <div class="promotions-shadow">
+          <a href="#"><div class="promotions"></div></a>
+          <div class="icon_shadow shadow4"></div>
+          </div>
+        </div>
+
+        <div class="col-md-1">
+          <div class="page_creator-shadow">
+          <a href="#"><div class="page_creator"></div></a>
+          <div class="icon_shadow shadow5"></div>
+          </div>
+        </div>
+
+        <div class="col-md-1">
+          <div class="analytics-shadow">
+          <a href="#"><div class="analytics"></div></a>
+          <div class="icon_shadow shadow6"></div>
+          </div>
+        </div>
+
+        <div class="col-md-3"></div>
       </div>
+
+  </div>
+  <!---container-fluid closing div----->
+
       <!--end of navigation-->
       <!--start of main content-->
       <div class="container">
          <!--start of search bar-->
-         <div class="dashboard">
+         <div class="dashboard2">
             <div class="row">
                <div class="col-md-8 col-lg-9">
                   <p>Dashboard</p>
                </div>
                <div class="col-md-4 col-lg-3">
-                  <div class="input-group">
-                     <input type="text" class="form-control" placeholder="">
-                     <span class="input-group-btn">
-                     <button class="btn btn-default" type="button"><i class="fa fa-search fa-lg"></i></button>
-                     </span>
-                  </div>
+                 <!--Search box url: http://webdesign.tutsplus.com/tutorials/css-experiments-with-a-search-form-input-and-button--cms-22069---->
+  <div id="search-dash" class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
+    <div class="box">
+      <div class="container-1">
+        <input type="search" id="search" />
+        <span class="button"><button class="icon" type="button"><img src="/project1/assets/img/icon_search.png" alt="search"></button></span>
+      </div>
+    </div>
+  </div>
                </div>
             </div>
          </div>

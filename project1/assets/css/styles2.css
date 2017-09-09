@@ -1,0 +1,261 @@
+h1 {
+  color: #2497f4;
+  font-size: 2em;
+}
+
+p {
+  color: #000;
+}
+
+a {
+  color: #2498f4;
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: none;
+}
+
+/*-------COL-MD-4----*/
+.col-md-4 {
+  max-width: 400px;
+}
+
+/*----------HEADER----------*/
+.header {
+  background-color: #208ee5;
+  background: url(../img/header_bar.png);
+  text-align: right;
+  padding: 0 100px 0 0;
+  height: 45px;
+}
+
+.header p {
+  display: inline-block;
+  color: #fff;
+  padding: 15px 10px 0 0;
+}
+
+.logo {
+  border-right: 1px solid #ccc;
+  color: #fff;
+  font-size: 1.15em;
+  padding: 0 10px 0 0;
+}
+
+.icon_help {
+  padding: 0 30px 0 0;
+  border-right: 1px solid #ccc;
+}
+
+.header_settings {
+
+}
+
+/*--------MENU------*/
+.menu {
+    background: url(../img/background.png) no-repeat;
+    background-size: 100% 100%;
+    min-height: 107px;
+}
+
+.menu_centered {
+    text-align: center;
+}
+
+/*------MENU ICONS-----*/
+.dashboard-shadow {
+  margin: 15px;
+}
+
+.customers-shadow {
+  margin: 16px 0;
+}
+
+.messages-shadow {
+  margin: 26px 0 0 0;
+}
+
+.promotions-shadow {
+  margin: 24px 0 0 0;
+}
+
+.page_creator-shadow {
+  margin: 25px 0 0 0;
+}
+
+.analytics-shadow {
+  margin: 25px 0 0 0;
+}
+/*------ICON HOVER-----*/
+.dashboard:hover {
+    background: url(../img/menu_hover.png) no-repeat;
+    background-position: -9px -6px ;
+}
+
+.active:active {
+  background: url(../img/trianglepic.png) no-repeat;
+  background-position: -28px -23px ;
+}
+
+.customers:hover {
+    background: url(../img/menu_hover.png) no-repeat;
+    background-position: -9px -87px ;
+}
+
+.messages:hover {
+    background: url(../img/menu_hover.png) no-repeat;
+    background-position: -14px -160px ;
+}
+
+.promotions:hover {
+    background: url(../img/menu_hover.png) no-repeat;
+    background-position: -101px -11px ;
+}
+
+.page_creator:hover {
+    background: url(../img/menu_hover.png) no-repeat;
+    background-position: -102px -154px ;
+}
+
+.analytics:hover {
+    background: url(../img/menu_hover.png) no-repeat;
+    background-position: -103px -80px ;
+}
+
+.icon_help, .header_settings, .spacer {
+	background: url(../img/header_sprites.png) no-repeat;
+	display: inline-block;
+	float: none;
+
+}
+
+.icon_help {
+	background-position: -7px -7px ;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+.header_settings {
+	background-position: -6px -55px ;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin: 10px;
+}
+
+.spacer {
+	background-position: -12px -105px ;
+	width: 1px;
+	height: 30px;
+	vertical-align: middle;
+}
+.icon_shadow{
+	background: url(../img/shadow_sprites.png) no-repeat;
+	display: inline-block;
+}
+
+.icon_shadow{
+	background-position: -23px -24px ;
+	width: 60px;
+	height: 5px;
+}
+
+.analytics, .customers, .dashboard, .messages, .page_creator, .promotions {
+	background: url(../img/menu_sprites.png) no-repeat;
+	position: relative;
+}
+
+.analytics{
+	background-position: -100px -74px ;
+	width: 42px;
+	height: 50px;
+}
+
+.customers{
+	background-position: -5px -83px ;
+	width: 62px;
+	height: 42px;
+}
+
+.dashboard{
+	background-position: -4px -4px ;
+	width: 58px;
+	height: 58px;
+}
+
+.messages{
+	background-position: -9px -153px ;
+	width: 57px;
+	height: 48px;
+}
+
+.page_creator{
+	background-position: -103px -147px ;
+	width: 45px;
+	height: 50px;
+}
+
+.promotions{
+	background-position: -97px -7px ;
+	width: 50px;
+	height: 50px;
+}
+
+#search-dash {
+    background-color: #33cc66;
+    min-height: 39px;
+    margin: 15px 0;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.container-1 {
+    width: 200px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: relative;
+}
+
+.container-1 input#search {
+    width: 200px;
+    height: 30px;
+    background: #fff;
+    border: none;
+    font-size: 1em;
+    float: left;
+    color: #000;
+    padding-left: 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding-right: 45px;
+}
+.container-1 .icon{
+    position: absolute;
+    top: 50%;
+    margin-left: 160px;
+    margin-top: 2px;
+    z-index: 1;
+    background: none;
+    border: none;
+    float: right;
+    text-align: right;
+
+}
+
+.trianglepic{
+	background: url(../img/trianglepic.png) no-repeat;
+	display: block;
+	position: absolute;
+	margin: 10px;
+}
+
+.trianglepic{
+	background-position: -28px -23px ;
+	width: 40px;
+	height: 10px;
+}

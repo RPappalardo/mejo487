@@ -28,21 +28,15 @@ ul.nav li {
     margin-left: 25%;
     margin-right: 25%;
 }
-.customers {
-    background-position: -103px -7px;
-    width: 90px;
-    height: 90px;
-}
-.customers:hover {
 
-}
-.dashboard {
+
+.dashboard2 {
     background-color: #33cc66;
     border: 10px solid #33cc66;
     border-radius: 10px;
     margin-top: 20px;
 }
-.dashboard p {
+.dashboard2 p {
     font-family: "Myriad Pro Regular", sans-serif;
     font-size: 36pt;
     color: white;
@@ -538,51 +532,15 @@ ul.footer li#triangle {
     margin-left: 60px;
 }
 /* sprites 1 */
-
-.analytics-blue,
-.analytics,
 .creator-blue,
-.customers,
 .promotions-green,
-.customers-blue,
 .promotions-blue,
-.messages-blue,
 .dashboard-blue,
 .dashboard-top,
-.messages,
 .creator {
     background: url(../img/sprites-1.png) no-repeat;
 }
-.analytics-blue {
-    background-position: 0 -111px;
-    width: 90px;
-    height: 90px;
-}
-a:hover .analytics {
-    background-position: 0 -111px;
-    width: 90px;
-    height: 90px;
-}
-.analytics {
-    background-position: -2px -10px;
-    width: 90px;
-    height: 90px;
-}
-.customers {
-    background-position: -103px -7px;
-    width: 90px;
-    height: 90px;
-}
-.customers-blue {
-    background-position: -106px -100px;
-    width: 90px;
-    height: 90px;
-}
-a:hover .customers {
-    background-position: -106px -100px;
-    width: 90px;
-    height: 90px;
-}
+
 .promotions-green {
     background-position: -203px -4px;
     width: 90px;
@@ -613,26 +571,7 @@ a:hover .dashboard-top {
     width: 90px;
     height: 90px;
 }
-.messages {
-    background-position: -502px 0;
-    width: 90px;
-    height: 90px;
-}
-.messages-blue {
-    background-position: -502px -99px;
-    width: 90px;
-    height: 90px;
-}
-a:hover .messages {
-    background-position: -502px -99px;
-    width: 90px;
-    height: 90px;
-}
-a:hover .messages {
-    background-position: -502px -99px;
-    width: 90px;
-    height: 90px;
-}
+
 .creator {
     background-position: -404px -10px;
     width: 90px;
@@ -818,17 +757,6 @@ a:hover .tasks-person-icon-blue {
     width: 30px;
     height: 23px;
     border: none;
-}
-.triangle {
-    background-position: -28px -23px;
-    width: 40px;
-    height: 10px;
-}
-.triangle {
-    background: url(../img/triangle.png) no-repeat;
-    display: block;
-    position: absolute;
-    margin: 10px;
 }
 
 #mini{
