@@ -852,38 +852,40 @@ var quizJSON = {
     },
     "questions": [
         { // Question 1 - Multiple Choice, Single True Answer
-            "q": "What number is the letter A in the English alphabet?",
+            "q": "Should you let a person know you are about to perform the Heimlich Maneuver on them??",
             "a": [
-                {"option": "8",      "correct": false},
-                {"option": "14",     "correct": false},
-                {"option": "1",      "correct": true},
-                {"option": "23",     "correct": false} // no comma here
+                {"option": "Yes",      "correct": true},
+                {"option": "No, that's stupid",     "correct": false}
+              //  {"option": "1",      "correct": true},
+              //  {"option": "23",     "correct": false} // no comma here
             ],
             "correct": "<p><span>That's right!</span> The letter A is the first letter in the alphabet!</p>",
             "incorrect": "<p><span>Uhh no.</span> It's the first letter of the alphabet. Did you actually <em>go</em> to kindergarden?</p>" // no comma here
         },
         { // Question 2 - Multiple Choice, Multiple True Answers, Select Any
-            "q": "Which of the following best represents your preferred breakfast?",
+            "q": "Where should you position your fists while performing the Heimlich Meneuver?",
             "a": [
-                {"option": "Bacon and eggs",               "correct": false},
-                {"option": "Fruit, oatmeal, and yogurt",   "correct": true},
-                {"option": "Leftover pizza",               "correct": false},
-                {"option": "Eggs, fruit, toast, and milk", "correct": true} // no comma here
+                {"option": "On your own head",               "correct": false},
+                {"option": "Below the ribcage, but above the navel",   "correct": true},
+                {"option": "On their ribcage, but below the heart",               "correct": false},
+                {"option": "Call your friend to ask them": false} // no comma here
             ],
             "select_any": true,
             "correct": "<p><span>Nice!</span> Your cholestoral level is probably doing alright.</p>",
             "incorrect": "<p><span>Hmmm.</span> You might want to reconsider your options.</p>" // no comma here
         },
         { // Question 3 - Multiple Choice, Multiple True Answers, Select All
-            "q": "Where are you right now? Select ALL that apply.",
+            "q": "You should only perform the Heimlich on a choking person. Select ALL the signs of choking below.",
             "a": [
-                {"option": "Planet Earth",           "correct": true},
+                {"option": "Cannot breathe or experiencing loud, difficult breathing",           "correct": true},
                 {"option": "Pluto",                  "correct": false},
-                {"option": "At a computing device",  "correct": true},
-                {"option": "The Milky Way",          "correct": true} // no comma here
+                {"option": "Cannot speak",  "correct": true},
+                {"option": "Inability to cough effectively",          "correct": true},
+                {"option": "Blue or gray color to lips and fingernail beds",  "correct": true},
+                {"option": "Loss of consciousness",          "correct": true} // no comma here
             ],
             "correct": "<p><span>Brilliant!</span> You're seriously a genius, (wo)man.</p>",
-            "incorrect": "<p><span>Not Quite.</span> You're actually on Planet Earth, in The Milky Way, At a computer. But nice try.</p>" // no comma here
+            "incorrect": "<p><span>Not Quite.</span> Did you really pick Pluto?!</p>" // no comma here
         },
         { // Question 4
             "q": "How many inches of rain does Michigan get on average per year?",
