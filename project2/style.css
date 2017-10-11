@@ -1,6 +1,7 @@
 body{
   margin-top: 33px !important;
   height: 489px !important;
+  background-color: #fff !important;
 }
 
 .button {
@@ -153,7 +154,8 @@ ul.responses li {
 /* Styles to prettify the quiz page */
 
 html {
-    background: #eee;
+  /* blue color */
+    background: #EEEEEE !important;
 }
 
 body {
@@ -179,6 +181,8 @@ h1 {
 h2 {
     font-size: 22px;
     margin: 15px 0;
+    color: #fff;
+
 }
 h3 {
     font-size: 18px;
@@ -306,8 +310,13 @@ ul.responses li.incorrect p span {
 }
 
 .trickcenter {
-    position: fixed;
-    top: 10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  position: fixed;
+  top: -38%;
+  left: 2%;
+  /*  transform: translate(-50%, -50%); */
+}
+@media only screen and (max-width: 699px) and (min-width: 520px)  {
+    h2 {
+        color: #000;
+    }
 }
