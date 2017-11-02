@@ -35,7 +35,7 @@
     <meta name="p:domain_verify" content="key goes here" />
 
     <!-- TODO Figure out a way to automatically compile on http request -->
-    <link rel="stylesheet" href="css/styles.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
     <script>
