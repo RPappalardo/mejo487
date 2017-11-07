@@ -1,50 +1,24 @@
 $(document).ready(function() {
-$('#example').dataTable( {
+/*$('#example').dataTable( {
 "bProcessing": true,
 "sAjaxSource": 'convertcsv.JSON'
 
+});  */
 });
-});
-var r = new Array(), j = -1;
-for (var key=0, size=data.length; key<size; key++){
-    r[++j] ='<tr><td>';
-    r[++j] = data[key][0];
-    r[++j] = '</td><td class="whatever1">';
-    r[++j] = data[key][1];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][2];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][3];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][4];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][5];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][6];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][7];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][8];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][9];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][10];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][11];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][12];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][13];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][14];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][15];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][16];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][17];
-    r[++j] = '</td><td class="whatever2">';
-    r[++j] = data[key][18];
-    r[++j] = '</td></tr>';
+
+
+var data = {
+"arr":	[
+"FIELD1": "agency", "FIELD2": "date", "FIELD3": "time", "FIELD4": "event_num", "FIELD5": "incident_num", "FIELD6": "nature_code", "FIELD7": "Nature_Description", "FIELD8": "beat_zone", "FIELD9": "event_source", "FIELD10": "disposition_code",
+ "FIELD11": "Hour", "FIELD12": "Year", "FIELD13": "Num", "FIELD14": "NumDay", "FIELD15": "NumMonth", "FIELD16": "YearMon", "FIELD17": "Location", "FIELD18": "NatureMajor" },
+  { "FIELD1": "SRP", "FIELD2": "08/15/2017 12:00:00 AM", "FIELD3": "2027", "FIELD4": "172270401", "FIELD5": "", "FIELD6": "1154", "FIELD7": "SUSPICIOUS VEHICLE", "FIELD8": "7", "FIELD9": "OFFICER", "FIELD10": "HRI",
+  "FIELD11": "20", "FIELD12": "2017", "FIELD13": "1", "FIELD14": "2 Tue", "FIELD15": "", "FIELD16": "2017_08", "FIELD17": "(38.421842863338036, -122.74936226160166)", "FIELD18": "SUSPICIOUS VEHICLE" }
+]
 }
-$('#example').html(r.join(''));
+
+let container = document.getElementById('divId')
+
+for (var i = 0; i < data.arr.length; i++) {
+	var element = '<p>' + data.arr[i].FIELD1 + '</p>'
+	container.innerHTML += element
+}
