@@ -1,9 +1,9 @@
 $(document).ready(function() {
-/*$('#example').dataTable( {
+$('#example').dataTable( {
 "bProcessing": true,
 "sAjaxSource": 'convertcsv.JSON'
 
-});  */
+});  
 });
 
 
