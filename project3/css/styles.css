@@ -1,5 +1,12 @@
+html, body {
+    font-family: Verdana,sans-serif;
+     font-size: 0px !important;
+    line-height: 1.5;
+}
+
+
 .container {
-    width: 90%;
+    width: 100%;
 }
 
 .orange {
@@ -74,7 +81,7 @@ p {
 }
 
 
-
+/*
 
 a:link,a:visited
 {
@@ -90,3 +97,4 @@ a:hover,a:active
 {
 background-color:#FF1493;
 }
+*/

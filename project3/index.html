@@ -8,12 +8,12 @@
 		<link type="text/css" rel="stylesheet" href="/project3/css/styles.css">
 		<link type="text/css" rel="stylesheet" href="/project3/css/demo_page.css">
 		<link type="text/css" rel="stylesheet" href="/project3/css/demo_table.css">
-    <script src="/project3/js/tooltip.js"></script>
     <script src="https://code.highcharts.com/maps/highmaps.js"></script>
     <script src="https://code.highcharts.com/modules/tilemap.js"></script>
     <script src="https://code.highcharts.com/modules/exporting.js"></script>
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <style>
@@ -21,6 +21,7 @@
       .navbar {
         margin-bottom: 0;
         border-radius: 0;
+				width:100%;
       }
 
       /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
@@ -37,7 +38,7 @@
       footer {
         background-color: #555;
         color: white;
-        padding: 15px;
+        padding: 10px;
       }
 
       /* On small screens, set height to 'auto' for sidenav and grid */
@@ -62,11 +63,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Logo</a>
+      <a class="navbar-brand" href="#">				<i class="fa fa-search"></i>
+</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Sections</a></li>
+        <li class="active"><a href="#">Sections <i class="fa fa-bars"></i></a></li>
         <li><a href="#">Politics</a></li>
         <li><a href="#">Opinions</a></li>
         <li><a href="#">Sports</a></li>
@@ -83,27 +85,28 @@
     </div>
   </div>
 </nav>
-<center>
-<ul style ="list-style-type:none;margin:1;padding:1;padding-top:7px;padding-bottom:5px;">
-<li style ="display:inline;"><a href="#News">News</a></li>
-<li style ="display:inline;"><a href="#Technology">Technology</a></li>
-<li style ="display:inline;"><a href="#Sports">Sports</a></li>
-<li style ="display:inline;"><a href="#Country">Country</a></li>
-<li style ="display:inline;"><a href="#Video">Video</a></li>
-<li style ="display:inline;"><a href="#Download">Download</a></li>
-</ul>
-</center>
+
 
 <div class="container">
 <div class="row top3">
-<h1>Police Homeless-related Incidents</h1>
+	<center><img src="washington-post-logo.jpg" style =" width: 400px; height:100px;" alt="Flowers in Chania"> </center>
 
-<p>Homeless-related Police Incidents in Santa Rosa are identified and counted by any incident relating from a homeless-related call for service. </p>
 </div>
 
 <div class="row">
-<h3>Weather/Climate Disasters by Year</h3>
-<h5>Hover over the graph to see the number of weather and climate disasters each year.</h5>
+	<center>
+	<ul style ="list-style-type:none;margin:1;padding:1;padding-top:7px;padding-bottom:5px;">
+	<li style ="display:inline;"><a href="#News">News</a></li>
+	<li style ="display:inline;"><a href="#Technology">Technology</a></li>
+	<li style ="display:inline;"><a href="#Sports">Sports</a></li>
+	<li style ="display:inline;"><a href="#Country">Country</a></li>
+	<li style ="display:inline;"><a href="#Video">Video</a></li>
+	<li style ="display:inline;"><a href="#Download">Download</a></li>
+	</ul>
+	</center>
+
+<h3>Police Homeless-related Incidents</h3>
+<h5>Homeless-related Police Incidents in Santa Rosa are identified and counted by any incident relating from a homeless-related call for service..</h5>
 	<div id="chart4" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
 
 </div>
@@ -199,11 +202,12 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
-<!-- D3, C3 stuff -->
+<script src="/project3/js/scripts.js"></script>
+
+
+<!-- D3 and C3 -->
 <script src="/project3/js/d3.min.js"></script>
 <script src="/project3/js/c3.min.js"></script>
-
-<script src="project3/js/scripts.js"></script>
 
 <script>$(document).ready(function() {
 $('#example').dataTable( {
