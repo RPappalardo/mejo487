@@ -57,6 +57,8 @@
             <li><a href="/project1">Project 1</a></li>
             <li><a href="/project2">Project 2</a></li>
             <li><a href="/project3">Project 3</a></li>
+            <li><a href="/finalproject">Final Project</a></li>
+
         </ul>
     </nav>
 
@@ -70,6 +72,9 @@
         </a>
         <a href="/project3">
             <p>Project 3</p>
+        </a>
+        <a href="/finalproject">
+            <p>Final Project</p>
         </a>
 
         <!--<a href="mailto:someone@yoursite.com?cc=someoneelse@theirsite.com, another@thatsite.com, me@mysite.com&bcc=lastperson@theirsite.com&subject=Big%20News&body=Body-goes-here">Email Us</a>
