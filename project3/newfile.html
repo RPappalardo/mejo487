@@ -6,67 +6,9 @@
    <meta http-equiv="x-ua-compatible" content="ie=edge">
    <!-- Mobile Responsive -->
    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
-   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-
-   <!-- Base URL to use for all relative URLs contained within the document -->
-   <!-- <base href=""> -->
-   <!-- Links to other languages -->
-   <link rel="alternate" href="/es/" hreflang="es" />
 
    <!-- Document Title -->
    <title>Page Title less than 65 characters</title>
-   <!-- Author -->
-   <meta name="author" content="Dylan Tackoor">
-   <!-- Meta Description -->
-   <meta name="description" content="Description of the page less than 150 characters">
-   <!-- Helps prevent duplicate content issues -->
-   <link rel="canonical" href="http://example.com/2017/09/a-new-article-to-red/">
-
-   <!-- Recommended favicon format -->
-   <link rel="icon" type="image/png" href="favicon.png">
-   <!-- Windows phone tab color -->
-   <meta name="msapplication-navbutton-color" content="#009688">
-   <!-- Chrome for Android tab color -->
-   <meta name="theme-color" content="#009688">
-   <!-- Android Chrome settings -->
-   <link rel="manifest" href="manifest.json">
-   <!-- Apple Safari icon -->
-   <link rel="apple-touch-icon" href="img/meta/apple-touch-icon.png">
-   <!-- Safari 9 Pinned tabs in El Capitan (Slightly broken svg!) -->
-   <link rel="mask-icon" href="img/meta/safari-pinned-tab.svg" color="#009688">
-   <!-- Windows Tiles -->
-   <meta name="msapplication-config" content="browserconfig.xml" />
-
-   <!-- Google Webmaster Verification -->
-   <meta name="google-site-verification" content="" />
-
-   <!-- Facebook Open Graph -->
-   <meta property="fb:app_id" content="123456789">
-   <meta property="fb:admins" content="USER_ID,USER_ID2,USER_ID3">
-   <meta property="article:author" content="https://www.facebook.com/DylanTackoor">
-   <meta property="og:url" content="page/">
-   <meta property="og:type" content="website">
-   <meta property="og:title" content="Content Title">
-   <meta property="og:image" content="meta/facebook.jpg">
-   <meta property="og:description" content="Description Here">
-   <meta property="og:site_name" content="Dylan Tackoor's Site">
-   <meta property="og:locale" content="en_US">
-
-   <!-- Twitter Card (Inherits Open Graph tags) -->
-   <meta name="twitter:card" content="summary">
-   <meta name="twitter:site" content="@site_account">
-   <meta name="twitter:creator" content="@DylanTackoor">
-   <meta name="twitter:image" content="meta/twitter.jpg"><!-- JPG, PNG, WEBP, and first GIF frame -->
-
-   <!-- Google+ / Schema.org -->
-   <link href="https://plus.google.com/+Example" rel="publisher">
-   <meta itemprop="name" content="Content Title">
-   <meta itemprop="description" content="Content description less than 200 characters">
-   <meta itemprop="image" content="meta/google.jpg">
-
-   <!-- Pinterest Image Ownership OR Pinterest disallow -->
-   <meta name="p:domain_verify" content="key goes here" />
-   <meta name="pinterest" content="nopin" description="Sorry, you can't save from my website!">
 
    <!-- Styles -->
    <style media="screen">
@@ -95,26 +37,17 @@
 
    <!-- Scripts -->
    <script>
-     function initMap() {
-       var unc = {lat:35.9043125, lng: -79.0504861};
-       var map = new google.maps.Map(document.getElementById('map'), {
-         zoom: 4,
-         center: unc
-       });
-       var marker = new google.maps.Marker({
-         position: unc,
-         map: map
-       });
-     }
+    function initMap() {
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 13,
+        center: unc
+      });
+      var marker = new google.maps.Marker({
+        position: {lat:35.9043125, lng: -79.0504861},
+        map: map
+      });
+    }
    </script>
    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0gvVoYUr2kjvtQd42O6CMhO3MdlKynAI&callback=initMap"></script>
-   <script>
-     (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-     function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-     e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-     e.src='https://www.google-analytics.com/analytics.js';
-     r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-     ga('create','__UA-XXXXX-X__','auto');ga('send','pageview');
-   </script>
 </body>
 </html>
