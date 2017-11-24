@@ -1,0 +1,108 @@
+//Reset styles
+#gmap-bubble html{color:#000;background:#FFF} #gmap-bubble body, #gmap-bubble div, #gmap-bubble dl, #gmap-bubble dt, #gmap-bubble dd, #gmap-bubble ul, #gmap-bubble ol, #gmap-bubble li, #gmap-bubble h1, #gmap-bubble h2, #gmap-bubble h3, #gmap-bubble h4, #gmap-bubble h5, #gmap-bubble h6, #gmap-bubble pre, #gmap-bubble code, #gmap-bubble form, #gmap-bubble fieldset, #gmap-bubble legend, #gmap-bubble input, #gmap-bubble textarea, #gmap-bubble p, #gmap-bubble blockquote, #gmap-bubble th, #gmap-bubble td{margin:0;padding:0} #gmap-bubble table{border-collapse:collapse;border-spacing:0} #gmap-bubble fieldset, #gmap-bubble img{border:0} #gmap-bubble address, #gmap-bubble caption, #gmap-bubble cite, #gmap-bubble code, #gmap-bubble dfn, #gmap-bubble em, #gmap-bubble strong, #gmap-bubble th, #gmap-bubble var{font-style:normal;font-weight:normal} #gmap-bubble ol, #gmap-bubble ul{list-style:none} #gmap-bubble caption, #gmap-bubble th{text-align:left} #gmap-bubble h1, #gmap-bubble h2, #gmap-bubble h3, #gmap-bubble h4, #gmap-bubble h5, #gmap-bubble h6{font-size:100%;font-weight:normal} #gmap-bubble q:before, #gmap-bubble q:after{content:''} #gmap-bubble abbr, #gmap-bubble acronym{border:0;font-variant:normal} #gmap-bubble sup{vertical-align:text-top} #gmap-bubble sub{vertical-align:text-bottom} #gmap-bubble input, #gmap-bubble textarea, #gmap-bubble select{font-family:inherit;font-size:inherit;font-weight:inherit} #gmap-bubble input, #gmap-bubble textarea, #gmap-bubble select{*font-size:100%} #gmap-bubble legend{color:#000} #gmap-bubble #yui3-css-stamp.cssreset{display:none}
+
+.gmap {
+	min-width: 100px;
+	min-height: 100px;
+	position: relative;	
+	
+	//Twitter bootstrap fix
+	img {
+		max-width: none;
+	}
+
+	.mapLoading {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		background-color: #000;
+		background-color: rgba(0,0,0,0.8);
+		z-index: 1;
+		padding: 4px 10px;
+		font-size: 13px;
+		color: #999;
+	}
+	
+	.gmap-bubble {
+		max-width: 280px;
+		min-width: 200px;
+		height: auto !important;
+		width: auto !important;
+		background-color: #FFF;
+		padding: 5px;
+		background-color: rgba(255,255,255,0.85);
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+		font-family: Arial;
+		-moz-box-shadow: 0 0 3px rgba(0,0,0,0.4);
+		-webkit-box-shadow: 0 0 3px rgba(0,0,0,0.4);
+		box-shadow: 0 0 3px rgba(0,0,0,0.4);
+		
+		.pointer {
+			display: block;
+			position: absolute;
+			top: -14px;
+			left: 22px;
+			font-size: 16px;
+			color: #FFFFFF;
+			color: rgba(255,255,255,0.85);
+			*color: #FFFFFF;
+			text-shadow: 0 -2px 2px rgba(0,0,0,0.4);
+		}
+		
+		img.tweetImage {
+			display: block;
+			padding: 0;
+			max-height: 280px;
+			max-width: 280px;
+		}
+		
+		.tweetText {
+			display: block;
+			font-size: 11px;
+			line-height: 15px;
+			padding: 10px 5px 5px 5px;
+			color: #625E54;
+			font-weight: bold;
+			text-shadow: 1px 1px 0 #ffffff;
+			
+			a {
+				text-decoration: underline;
+				color: #625E54;
+			}
+		}
+		
+		.tweetTime {
+			display: block;
+			font-size: 11px;
+			padding: 0 5px 5px 5px;
+			color: #888374;
+			font-style: italic;
+		}
+		
+		.close {
+			background: #D22C36;
+			display: block;
+			width: 22px;
+			height: 22px;
+			position: absolute;
+			top: -10px;
+			right: -10px;
+			font-size: 11px;
+			font-weight: bold;
+			border-radius: 20px;	
+			-moz-box-shadow: inset 0 1px 0x rgba(255,255,255,1);
+			-webkit-box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+			box-shadow: inset 0 1px 0 rgba(255,255,255,1);
+			
+			a {
+				text-decoration: none;
+				color: #fff;
+				display: block;
+				text-align: center;
+				line-height: 21px;
+			}
+		}
+	}
+}

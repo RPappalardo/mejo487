@@ -1,24 +1,63 @@
-$(document).ready(function() {
-/*$('#example').dataTable( {
-"bProcessing": true,
-"sAjaxSource": 'convertcsv.JSON'
 
-});  */
-});
+/*News API*/
+
+/* var url = 'https://newsapi.org/v2/everything?' +
+          'q=netneutrality&' +
+          'from=2017-11-24&' +
+          'sortBy=popularity&' +
+          'apiKey={6931e3e64dfc498884a01dbd78d7c1c4}';
+
+var req = new Request(url);
+
+fetch(req)
+    .then(function(response) {
+        console.log(response.json());
+    })   */
 
 
-var data = {
-"arr":	[
-"FIELD1": "agency", "FIELD2": "date", "FIELD3": "time", "FIELD4": "event_num", "FIELD5": "incident_num", "FIELD6": "nature_code", "FIELD7": "Nature_Description", "FIELD8": "beat_zone", "FIELD9": "event_source", "FIELD10": "disposition_code",
- "FIELD11": "Hour", "FIELD12": "Year", "FIELD13": "Num", "FIELD14": "NumDay", "FIELD15": "NumMonth", "FIELD16": "YearMon", "FIELD17": "Location", "FIELD18": "NatureMajor" },
-  { "FIELD1": "SRP", "FIELD2": "08/15/2017 12:00:00 AM", "FIELD3": "2027", "FIELD4": "172270401", "FIELD5": "", "FIELD6": "1154", "FIELD7": "SUSPICIOUS VEHICLE", "FIELD8": "7", "FIELD9": "OFFICER", "FIELD10": "HRI",
-  "FIELD11": "20", "FIELD12": "2017", "FIELD13": "1", "FIELD14": "2 Tue", "FIELD15": "", "FIELD16": "2017_08", "FIELD17": "(38.421842863338036, -122.74936226160166)", "FIELD18": "SUSPICIOUS VEHICLE" }
-]
+    /* Add Google Maps */
+
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
 }
 
-let container = document.getElementById('divId')
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
 
-for (var i = 0; i < data.arr.length; i++) {
-	var element = '<p>' + data.arr[i].FIELD1 + '</p>'
-	container.innerHTML += element
+// Change style of navbar on scroll
+window.onscroll = function() {myFunction()};
+function myFunction() {
+    var navbar = document.getElementById("myNavbar");
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+        navbar.className = "w3-bar" + " w3-card" + " w3-animate-top" + " w3-white";
+    } else {
+        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+    }
+}
+
+// Used to toggle the menu on small screens when clicking on the menu button
+function toggleFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
 }
