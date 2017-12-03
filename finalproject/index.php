@@ -58,7 +58,35 @@
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>Tweets</b></p><br>
-<div  width="500" height="333"></div>
+<div  width="500" height="333">
+  <?php
+  ini_set('display_errors', 1);
+  require_once('/finalproject/TwitterAPIExchange.php');
+
+  /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
+  $settings = array(
+      'oauth_access_token' => "702336877408468992-Lxmaj1s5oVS2u7N5R0X4eWLNaftXiq8",
+      'oauth_access_token_secret' => "OrGBEBmqbZ74ZcB0lqcU76wGpIH5UOlp5ASGnjeSpin5v",
+      'consumer_key' => "Y94KGzLxQoyWHzQBiEUigLtdL",
+      'consumer_secret' => "2B5B1D6ky8fegj9SG2ff6Eosi9AHBS9kUA65WeW75fw5TkSFdi"
+  );
+
+  $url = 'https://api.twitter.com/1.1/search/tweets.json';
+  $getfield = '?q=netneutrality';
+  $requestMethod = 'GET';
+  $twitter = new TwitterAPIExchange($settings);
+  $tweetData = json_decode($twitter->setGetfield($getfield)
+               ->buildOauth($url, $requestMethod)
+               ->performRequest(), $assoc=TRUE);
+
+  foreach($tweetData['statuses'] as $index => $items){
+    $userArray = $items['user'];
+    echo '<a href="https://twitter.com/' . $userArray['screen_name'] . '"><img class="img-circle" src="'. $userArray['profile_image_url'] . '"></a>';
+    echo $items['text']. "<br />";
+    // echo $userArray['profile_image_url']. "<br />";
+  }
+  ?>
+</div>
     </div>
 
     <!-- Hide this text on small devices -->
