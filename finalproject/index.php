@@ -7,8 +7,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link type="text/css" rel="stylesheet" href="/finalproject/css/styles.css">
-<link rel="stylesheet" href="tweetmap/tweetMap-1.1.0.min.css">
-
+<link rel="stylesheet" href="finalproject/tweetmap/tweetMap-1.1.0.min.css">
 
 <body>
 
@@ -61,7 +60,7 @@
 <div  width="500" height="333">
   <?php
   ini_set('display_errors', 1);
-  require_once('/finalproject/TwitterAPIExchange.php');
+require_once('TwitterAPIExchange.php');
 
   /** Set access tokens here - see: https://dev.twitter.com/apps/ **/
   $settings = array(
@@ -254,8 +253,7 @@ has led some governments to regulate broadband Internet services as a public uti
 <script src="/finalproject/js/scripts.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=[insert-key-here]"></script>
-<script src="tweetmap/tweetMap-1.1.0.min.js"></script>
-
+<script src="finalproject/tweetmap/tweetMap-1.1.0.min.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqUTjUNy4oRgD9GJFQEjhiCbY5_F8u2_k&callback=myMap"></script>
 
 </body>
