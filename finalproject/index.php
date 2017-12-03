@@ -57,7 +57,7 @@
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>Tweets</b></p><br>
-<div  width="500" height="333" style ="overflow:auto;border:8px solid yellowgreen;padding:2%">
+<div  width="500" height="333" style ="overflow-x:scroll;overflow-y:scroll;border:8px solid yellowgreen;padding:2%">
   <?php
   ini_set('display_errors', 1);
 require_once('TwitterAPIExchange.php');
