@@ -57,7 +57,7 @@
   <div class="w3-row">
     <div class="w3-col m6 w3-center w3-padding-large">
       <p><b><i class="fa fa-user w3-margin-right"></i>Tweets</b></p><br>
-<div  width="500" height="333" style ="overflow-x:scroll;overflow-y:scroll;border:8px solid yellowgreen;padding:2%">
+<div  width="500" height="333" style ="overflow:auto;border:8px solid yellowgreen;padding:2%">
   <?php
   ini_set('display_errors', 1);
 require_once('TwitterAPIExchange.php');
@@ -213,11 +213,11 @@ has led some governments to regulate broadband Internet services as a public uti
       <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
     </div>
     <div class="w3-col m8 w3-panel">
-<!--    <div class="w3-large w3-margin-bottom">
-        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Chicago, US<br>
-        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +00 151515<br>
+    <div class="w3-large w3-margin-bottom">
+        <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> UNC, US<br>
+        <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +000 000 000<br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: mail@mail.com<br>
-      </div>   -->
+      </div>
       <p>Swing by for a cup of <i class="fa fa-coffee"></i>, send a message to help defend net neutrality:</p>
       <form action="/action_page.php" target="_blank">
         <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
