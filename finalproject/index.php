@@ -73,7 +73,7 @@
 
             foreach($tweetData['statuses'] as $index => $items){
               $userArray = $items['user'];
-              echo '<div class="tweet"><a href="https://twitter.com/' . $userArray['screen_name'] . '/status/' . $userArray['id_str'] . '"><img class="img-circle" src="'. $userArray['profile_image_url'] . '">';
+              echo '<div class="tweet"><a href="https://twitter.com/' . $userArray['screen_name'] . '"><img class="img-circle" src="'. $userArray['profile_image_url'] . '">';
               echo "<span class=\"userName\">@" . $userArray['screen_name'] . "</span></a>";
               echo "<p class=\"tweetText\">" . $items['text'] . "</p></div>";
               // echo $userArray['profile_image_url']. "<br />";
