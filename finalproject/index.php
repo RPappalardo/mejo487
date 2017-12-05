@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link type="text/css" rel="stylesheet" href="/finalproject/css/styles.css">
   <link rel="stylesheet" href="finalproject/tweetmap/tweetMap-1.1.0.min.css">
 </head>
@@ -82,7 +82,41 @@
       </div>
       <!-- Hide this text on small devices -->
       <div class="w3-col m6 w3-hide-small w3-padding-large">
-        <p>A widely cited example of a violation of net neutrality principles was the Internet service provider Comcast's secret slowing ("throttling") of uploads from peer-to-peer file sharing (P2P) applications by using forged packets. Comcast did not stop blocking these protocols, like BitTorrent, until the FCC ordered them to stop.In another minor example, The Madison River Communications company was fined US$15,000 by the FCC, in 2004, for restricting their customers' access to Vonage, which was rivaling their own services. ATandT was also caught limiting access to FaceTime, so only those users who paid for ATandT's new shared data plans could access the application.In July 2017, Verizon Wireless was accused of throttling after users noticed that videos played on Netflix and Youtube were slower than usual, though Verizon commented that it  was conducting "network testing" and that net neutrality rules permit "reasonable network management practices".  Research suggests that a combination of policy instruments will help realize the range of valued political and economic objectives central to the network neutrality debate.Combined with strong public opinion, this  has led some governments to regulate broadband Internet services as a public utility, similar to the way electricity, gas, and the water supply are regulated, along with limiting providers and regulating the options those providers can offer.</p>
+        <p>A widely cited example of a violation of net neutrality principles
+          was the Internet service provider Comcast's secret slowing ("throttling")
+          of uploads from peer-to-peer file sharing (P2P) applications by using forged
+          packets. Comcast did not stop blocking these protocols, like BitTorrent, until
+          the FCC ordered them to stop.In another minor example, The Madison River
+          Communications company was fined US$15,000 by the FCC, in 2004, for restricting
+          their customers' access to Vonage, which was rivaling their own services. ATandT
+          was also caught limiting access to FaceTime, so only those users who paid for
+          ATandT's new shared data plans could access the application.In July 2017,
+          Verizon Wireless was accused of throttling after users noticed that videos
+          played on Netflix and Youtube were slower than usual, though Verizon commented
+          that it  was conducting "network testing" and that net neutrality rules permit
+          "reasonable network management practices".  Research suggests that a combination
+          of policy instruments will help realize the range of valued political and economic
+          objectives central to the network neutrality debate.Combined with strong public opinion,
+          this  has led some governments to regulate broadband Internet services as a public
+          utility, similar to the way electricity, gas, and the water supply are regulated,
+          along with limiting providers and regulating the options those providers can offer.
+        </br>
+           Under an "open Internet" schema, the full resources of the Internet and means to operate
+            on it should be easily accessible to all individuals, companies, and organizations.
+            Applicable concepts include: net neutrality, open standards, transparency, lack of
+            Internet censorship, and low barriers to entry. The concept of the open Internet is
+            sometimes expressed as an expectation of decentralized technological power, and is
+            seen by some observers as closely related to open-source software, a type of software
+            program whose maker allows users access to the code that runs the program, so that users
+            can improve the software or fix bugs.
+            Proponents of net neutrality see this as an important component of an "open Internet",
+            wherein policies such as equal treatment of data and open web standards allow those using
+            the Internet to easily communicate, and conduct business and activities without interference
+            from a third party. In contrast, a "closed Internet" refers to the opposite situation, wherein
+            established persons, corporations, or governments favor certain uses, restrict access to necessary
+            web standards, artificially degrade some services, or explicitly filter out content. Some countries
+            block certain websites or types of sites, and monitor and/or censor Internet use using Internet police,
+            a specialized type of law enforcement, or secret police</p>
       </div>
     </div>
     <p class="w3-large w3-center w3-padding-16">Poll of people who support net neutrality from Mozilla and research firm Ipsos:</p>
