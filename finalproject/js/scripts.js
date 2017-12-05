@@ -1,20 +1,3 @@
-
-/*News API*/
-
-/* var url = 'https://newsapi.org/v2/everything?' +
-          'q=netneutrality&' +
-          'from=2017-11-24&' +
-          'sortBy=popularity&' +
-          'apiKey={6931e3e64dfc498884a01dbd78d7c1c4}';
-
-var req = new Request(url);
-
-fetch(req)
-    .then(function(response) {
-        console.log(response.json());
-    })   */
-
-
 /* Add Google Maps */
 
 function myMap() {
