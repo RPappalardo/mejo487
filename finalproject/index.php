@@ -128,7 +128,8 @@
   <!-- Container (Portfolio Section) -->
   <div class="w3-content w3-container w3-padding-64" id="portfolio">
     <h3 class="w3-center">Data</h3>
-    <p class="w3-center"><em>These people probs want net neutrality.</em></p><br>
+    <p class="w3-center"><em>This small pool of people gathered by the Capital One API
+      probably want net neutrality.</em></p><br>
     <div style="width:100%; height: 500px;" id="constituentMap"></div>
 
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
@@ -159,8 +160,8 @@
 
     <div class="w3-row w3-padding-32 w3-section">
       <div class="w3-col m4 w3-container">
-        <!-- Add Google Maps -->
-        <div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div>
+        <img src="/finalproject/img/dane.gif" alt="Girl in a jacket" style="width:100%;height:400px;">
+        <!--<div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div> -->
       </div>
       <div class="w3-col m8 w3-panel">
       <div class="w3-large w3-margin-bottom">
