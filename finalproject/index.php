@@ -233,7 +233,7 @@
     </div>
   </footer>
 
-  <script src="/finalproject/js/scripts.js"></script>
+
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript">
     $.get('api.reimaginebanking.com/atms?key=39738aea2dc44764e312de238b6dfcc4', function(data, status) {
@@ -241,6 +241,7 @@
       console.log(data)
     });
   </script>
+  <script src="/finalproject/js/scripts.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqUTjUNy4oRgD9GJFQEjhiCbY5_F8u2_k&callback=myMap"></script>
   <script src="/finalproject/tweetmap/tweetMap-1.1.0.min.js"></script>
 </body>
