@@ -100,7 +100,7 @@
           this  has led some governments to regulate broadband Internet services as a public
           utility, similar to the way electricity, gas, and the water supply are regulated,
           along with limiting providers and regulating the options those providers can offer.
-        </br>
+          </br></br>
            Under an "open Internet" schema, the full resources of the Internet and means to operate
             on it should be easily accessible to all individuals, companies, and organizations.
             Applicable concepts include: net neutrality, open standards, transparency, lack of
@@ -109,6 +109,7 @@
             seen by some observers as closely related to open-source software, a type of software
             program whose maker allows users access to the code that runs the program, so that users
             can improve the software or fix bugs.
+            </br></br>
             Proponents of net neutrality see this as an important component of an "open Internet",
             wherein policies such as equal treatment of data and open web standards allow those using
             the Internet to easily communicate, and conduct business and activities without interference
@@ -116,7 +117,10 @@
             established persons, corporations, or governments favor certain uses, restrict access to necessary
             web standards, artificially degrade some services, or explicitly filter out content. Some countries
             block certain websites or types of sites, and monitor and/or censor Internet use using Internet police,
-            a specialized type of law enforcement, or secret police</p>
+            a specialized type of law enforcement, or secret police.
+            </br></br>
+            During the 1990s, creating a non-neutral Internet was technically infeasible. Originally developed to filter harmful malware, the Internet security company NetScreen Technologies released network firewalls in 2003 with so-called deep packet inspection capabilities. Deep packet inspection helped make real-time discrimination between different kinds of data possible, and is often used for Internet censorship. In a practice called zero-rating, companies will reimburse data use from certain addresses, favoring use of those services. Examples include Facebook Zero and Google Free Zone. These zero-rating practices are especially common in the developing world.
+            Sometimes Internet Service Providers (ISPs) will charge some companies, but not others, for the traffic they cause on the ISP's network. French telecom operator Orange, complaining that traffic from YouTube and other Google sites consists of roughly 50% of total traffic on the Orange network, made a deal with Google, in which they charge Google for the traffic incurred on the Orange network. Some also thought that Orange's rival ISP Free throttled YouTube traffic. However, an investigation done by the French telecommunications regulatory body revealed that the network was simply congested during peak hours</p>
       </div>
     </div>
     <p class="w3-large w3-center w3-padding-16">Poll of people who support net neutrality from Mozilla and research firm Ipsos:</p>
