@@ -236,7 +236,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript">
-    $.get('api.reimaginebanking.com/atms?key=39738aea2dc44764e312de238b6dfcc4', function(data, status) {
+    $.get('http://api.reimaginebanking.com/atms?key=39738aea2dc44764e312de238b6dfcc4', function(data, status) {
       console.log(status)
       console.log(data)
     });
