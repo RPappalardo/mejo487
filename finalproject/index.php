@@ -73,7 +73,8 @@
 
             foreach($tweetData['statuses'] as $index => $items){
               $userArray = $items['user'];
-              echo '<div class="tweet"><a href="https://twitter.com/' . $userArray['screen_name'] . '"><img class="img-circle" src="'. $userArray['profile_image_url'] . '"></a>';
+              echo '<div class="tweet"><a href="https://twitter.com/' . $userArray['screen_name'] . '/status/' . $userArray['id_str'] . '"><img class="img-circle" src="'. $userArray['profile_image_url'] . '">';
+              echo "<span class=\"userName\">@" . $userArray['screen_name'] . "</span></a>";
               echo "<p class=\"tweetText\">" . $items['text'] . "</p></div>";
               // echo $userArray['profile_image_url']. "<br />";
             }
@@ -198,7 +199,7 @@
 
     <div class="w3-row w3-padding-32 w3-section">
       <div class="w3-col m4 w3-container">
-        <img src="/finalproject/img/dane.gif" alt="Girl in a jacket" style="width:100%;height:400px;">
+        <img src="/finalproject/img/dane.gif" alt="Pupper" style="width:100%;height:400px;">
         <!--<div id="googleMap" class="w3-round-large w3-greyscale" style="width:100%;height:400px;"></div> -->
       </div>
       <div class="w3-col m8 w3-panel">
@@ -239,11 +240,9 @@
     </div>
   </footer>
 
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="/finalproject/js/scripts.js"></script>
   <script type="text/javascript">
-    var map;
     function initMap() {
       var map = new google.maps.Map(document.getElementById('constituentMap'), {
         zoom: 14,
@@ -253,7 +252,7 @@
         }
       });
 
-      var markers = [];
+      var markers = new Array;
       $.get('http://api.reimaginebanking.com/atms?key=39738aea2dc44764e312de238b6dfcc4', function (data, status) {
         console.log(status)
         console.log(data.data)
