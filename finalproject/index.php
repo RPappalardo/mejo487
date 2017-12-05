@@ -49,7 +49,7 @@
     <p>The term was coined by Columbia University media law professor Tim Wu in 2003, as an extension of the longstanding concept of a common carrier, which was used to describe the role of telephone systems. Net neutrality is the principle that internet service providers and governments regulating most of the Internet must treat all data on the    Internet the same, and not discriminate or charge differently by user, content, website, platform, application, type of    attached equipment, or method of communication. For instance, under these principles, internet service providers are    unable to intentionally block, slow down or charge money for specific websites and online content.    Therefore, this doesn't mean loading Netflix on a 25-megabits-per-second connection just as quickly as on a 100-megabits-per-second connection; it means treating Netflix and Hulu the same on whichever kind of connection a consumer has.</p>
     <div class="w3-row">
       <div class="w3-col m6 w3-center w3-padding-large">
-        <p><b><i class="fa fa-user w3-margin-right"></i>Tweets</b></p>
+        <p><b><i class="fa fa-user w3-margin-right"></i>Tweets about Net-Neutrality</b></p>
         <div id="tweets" width="500" height="333">
           <?php
             ini_set('display_errors', 1);
