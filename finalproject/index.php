@@ -235,9 +235,15 @@
 
   <script src="/finalproject/js/scripts.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?key=[insert-key-here]"></script>
+  <script type="text/javascript">
+    $.ajax({
+      url: 'api.reimaginebanking.com/atms?key=39738aea2dc44764e312de238b6dfcc4',
+      success: function(results){
+          console.log(results);
+      }
+    });
+  </script>
   <script src="finalproject/tweetmap/tweetMap-1.1.0.min.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqUTjUNy4oRgD9GJFQEjhiCbY5_F8u2_k&callback=myMap"></script>
-
 </body>
 </html>
