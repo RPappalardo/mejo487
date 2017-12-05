@@ -243,7 +243,7 @@
       }
     });
   </script>
-  <script src="/finalproject/tweetmap/tweetMap-1.1.0.min.js"></script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqUTjUNy4oRgD9GJFQEjhiCbY5_F8u2_k&callback=myMap"></script>
+  <script src="/finalproject/tweetmap/tweetMap-1.1.0.min.js"></script>
 </body>
 </html>
