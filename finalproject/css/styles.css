@@ -34,8 +34,16 @@ body, html {
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
-#tweets {
-  border:
+.tweet {
+
+}
+
+.tweet > a {
+
+}
+
+.img-circle {
+
 }
 
 /* Turn off parallax scrolling for tablets and phones */
