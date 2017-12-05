@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
   <link type="text/css" rel="stylesheet" href="/finalproject/css/styles.css">
   <link rel="stylesheet" href="finalproject/tweetmap/tweetMap-1.1.0.min.css">
 </head>
@@ -128,44 +128,11 @@
   <!-- Container (Portfolio Section) -->
   <div class="w3-content w3-container w3-padding-64" id="portfolio">
     <h3 class="w3-center">Data</h3>
-    <p class="w3-center"><em>Here are some of the latest data.<br> Click on the images to make them bigger</em></p><br>
+    <p class="w3-center"><em>These people probs want net neutrality.</em></p><br>
+    <div style="width:100%; height: 500px;" id="constituentMap"></div>
 
     <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-    <div class="w3-row-padding w3-center">
-      <div class="w3-col m3">
-        <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist over the mountains">
-      </div>
-
-      <div class="w3-col m3">
-        <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Coffee beans">
-      </div>
-
-      <div class="w3-col m3">
-        <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Bear closeup">
-      </div>
-
-      <div class="w3-col m3">
-        <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Quiet ocean">
-      </div>
-    </div>
-
     <div class="w3-row-padding w3-center w3-section">
-      <div class="w3-col m3">
-        <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="The mist">
-      </div>
-
-      <div class="w3-col m3">
-        <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="My beloved typewriter">
-      </div>
-
-      <div class="w3-col m3">
-        <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Empty ghost train">
-      </div>
-
-      <div class="w3-col m3">
-        <img src="" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Sailing">
-      </div>
-      <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
     </div>
   </div>
 
@@ -235,14 +202,36 @@
 
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script type="text/javascript">
-    $.get('http://api.reimaginebanking.com/atms?key=39738aea2dc44764e312de238b6dfcc4', function(data, status) {
-      console.log(status)
-      console.log(data)
-    });
-  </script>
   <script src="/finalproject/js/scripts.js"></script>
-  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqUTjUNy4oRgD9GJFQEjhiCbY5_F8u2_k&callback=myMap"></script>
+  <script type="text/javascript">
+    var map;
+    function initMap() {
+      var map = new google.maps.Map(document.getElementById('constituentMap'), {
+        zoom: 14,
+        center: {
+          lat: 38.890056,
+          lng: - 77.121512
+        }
+      });
+
+      var markers = [];
+      $.get('http://api.reimaginebanking.com/atms?key=39738aea2dc44764e312de238b6dfcc4', function (data, status) {
+        console.log(status)
+        console.log(data.data)
+
+        data.data.forEach(function (location) {
+          console.log(location)
+
+          markers.push(new google.maps.Marker({
+            position: location.geocode,
+            map: map,
+            title: location.name
+          }))
+        });
+      });
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqUTjUNy4oRgD9GJFQEjhiCbY5_F8u2_k&callback=initMap"></script>
   <script src="/finalproject/tweetmap/tweetMap-1.1.0.min.js"></script>
 </body>
 </html>
