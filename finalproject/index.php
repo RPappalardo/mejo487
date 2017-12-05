@@ -236,12 +236,11 @@
   <script src="/finalproject/js/scripts.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript">
-    alert('plswork')
     $.ajax({
-      url: 'api.reimaginebanking.com/atms?key=39738aea2dc44764e312de238b6dfcc4',
-      success: function(results){
-          console.log(results);
-      }
+        url: 'api.reimaginebanking.com/atms?key=39738aea2dc44764e312de238b6dfcc4',
+        success: function(results){
+            //do something
+        }
     });
   </script>
   <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBqUTjUNy4oRgD9GJFQEjhiCbY5_F8u2_k&callback=myMap"></script>
